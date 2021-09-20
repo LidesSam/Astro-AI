@@ -1,0 +1,97 @@
+.HeadBot{
+    
+    position: relative;
+    min-width: 50%;
+    max-width: 50%;
+    aspect-ratio: 1/1;
+    display:inline-block;
+
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border: 10px black solid;
+    
+
+
+
+}
+.HeadBot img{
+    max-width: 100%;
+    max-height: 100%;
+    
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    /*border: 1px magenta solid;
+    */
+
+
+
+}
+
+
+
+.glass{
+    box-sizing: border-box;
+    border: 2px orangered solid;
+    
+
+
+    aspect-ratio: 1/1;
+    width: fit-content;
+    
+    z-index: 5;
+    
+    background-color:transparent;
+    color: black;
+    aspect-ratio: 1/1;
+    top:50;
+    left:50;
+    transform: translate(-50%,-50%);
+}
+
+.eye{
+  
+    /*border: 1px green solid;*/
+  
+    background-color: transparent;
+    color: black;
+
+    position: absolute;
+    aspect-ratio: 1/1;
+    top:50;
+    left:50;
+    transform: translate(-50%,-50%);
+    
+    
+    z-index: 9;
+}
+
+.head{
+   
+    background-color: transparent;
+    color: black;
+
+  
+    aspect-ratio: 1/1;
+  position: relative;
+  top: 0%;
+
+    z-index: 1;
+}
+
+
+
+.BotInterface{
+    width: 640px;
+    display: flex;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 2px red solid;
+    
+}
